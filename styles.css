@@ -1,0 +1,97 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.coin {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #FFDBA4;
+}
+
+img {
+  width: 80%;
+}
+
+button {
+  margin-left: 49%;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.tablecontainer {
+  position: absolute;
+  left: 35%;
+  top: 440px;
+  color: #EEEEEE;
+  font-family: 'Raleway', sans-serif;
+}
+
+table {
+  position: relative;
+    left: 30%;
+}
+
+/************************mobile responsive************************/
+@media (max-width: 1822px) {
+   h1 {
+     font-size:5rem;
+   }
+
+   .tablecontainer {
+     top: 375;
+     left: 30%
+   }
+
+}
+
+@media (max-width: 1336px) {
+   h1 {
+     font-size: 4rem;
+   }
+
+}
+
+@media (max-width: 1092px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 1005px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .tablecontainer {
+    top: 350px;
+    left: 15%;
+  }
+
+}
+
+@media (max-width: 606px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .tablecontainer {
+    left: 0;
+  }
+
+}
